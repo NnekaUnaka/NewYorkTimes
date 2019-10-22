@@ -1,0 +1,528 @@
+*{
+  box-sizing: border-box;
+}
+header{
+  height: 150px;
+  width: 100%;
+  border: 1px solid white;
+  float: left;
+}
+header section{
+  width: 100%;
+  height: 30px;
+  float: left;
+  border: 1px solid white;
+}
+header section img{
+  height: 30px;
+  width: 30px;
+  float: left;
+}
+header section img + span{
+  font-size: 10px;
+  font-weight: bold;
+  float: left;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+header section img + span + img{
+  height: 30px;
+  width: 30px;
+  float: left;
+  font-size: 10px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+header section img + span + img + span + button{
+  height: 30px;
+  width: 120px;
+  background: gray;
+  color: white;
+  float: left;
+  margin-left: 780px;
+}
+header section img + span + img + span + button + button{
+  height: 30px;
+  width: 80px;
+  background: gray;
+  color: white;
+  float: left;
+  margin-left: 20px;
+}
+header section img + span + img + span + button + button + img{
+  height: 15px;
+  width: 20px;
+  float: left;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+header section + section{
+  width: 100%;
+  height: 90px;
+  float: left;
+  border: 1px solid white;
+}
+header section + section h1{
+  font-size: 50px;
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 15px;
+}
+header section + section + section{
+  width: 100%;
+  height: 30px;
+  float: left;
+}
+header section + section + section ul{
+  margin-left: 275px;
+}
+header section + section + section ul li{
+  float: left;
+  font-size: 15px;
+  list-style: none;
+  margin-left: 30px;
+  margin-top: -10px;
+
+}
+header + section{
+  height: 50px;
+  width: 100%;
+  border-top: 3px solid black;
+  float: left;
+}
+header + section nav ul{
+  margin-left: 20px;
+}
+header + section nav ul li{
+  float: left;
+  font-size: 15px;
+  margin: 10px;
+  list-style: none;
+}
+header + section + main{
+  height: 700px;
+  width: 100%;
+  float: left;
+  border-top: 1px solid silver;
+}
+header + section + main section{
+  width: 20%;
+  height: 700px;
+  float: left;
+  border-right: 1px solid silver;
+}
+header + section + main section section{
+  height: 350px;
+  width: 100%;
+  border: 1px solid white;
+  float: left;
+}
+header + section + main section section span{
+  font-size: 15px;
+  font-weight: bold;
+  border-bottom: 1px solid gray;
+}
+header + section + main section section span + h2{
+  font-size: 25px;
+  font-style: italic;
+  font-weight: bold;
+  margin-left: 10px;
+}
+header + section + main section section span + h2 + span{
+  font-size: 10px;
+  color: silver;
+  border-bottom: 1px solid white;
+  float: left;
+  margin-left: 10px;
+}
+header + section + main section section span + h2 + span p{
+  color: red;
+  margin-top: -13px;
+  margin-left: 65px;
+}
+header + section + main section section span + h2 + span +ul{
+  margin-left: -15px;
+}
+header + section + main section section span + h2 + span +ul li{
+  font-size: 15px;
+}
+header + section + main section section + section{
+  height: 350px;
+  width: 100%;
+  border: 1px solid white;
+  float: left;
+}
+
+header + section + main section + section{
+  width: 40%;
+  height: 650px;
+  float: left;
+  border-right: 1px solid silver;
+}
+header + section + main section + section section{
+  width: 100%;
+  height: 300px;
+  float: left;
+  border: 1px solid white;
+}
+header + section + main section + section section img{
+  height: 250px;
+  width: 450px;
+  margin-top: 5px;
+  margin-left: 25px;
+}
+header + section + main section + section section img + p{
+  font-size: 15px;
+  text-align: left;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+header + section + main section + section section + section{
+  width: 100%;
+  height: 150px;
+  float: left;
+  border: 1px solid white;
+}
+header + section + main section + section section + section h4{
+  font-size: 20px;
+  margin-left: 20px;
+}
+header + section + main section + section section + section h4 + p{
+  font-size: 15px;
+  margin-left: 20px;
+  text-align: left;
+}
+header + section + main section + section section + section h4 + p + ul li{
+  font-size: 13px;
+  font-weight: bold;
+  border-right: 1px solid silver;
+  float: left;
+  list-style: none;
+  margin-left: 10px;
+  padding-right: 10px;
+}
+header + section + main section + section section + section + section{
+  width: 100%;
+  height: 200px;
+  float: left;
+  border: 1px solid white;
+}
+header + section + main section + section section + section + section h5{
+  margin-left: 10px;
+  font-size: 19px;
+  font-weight: bold;
+  float: left;
+}
+header + section + main section + section section + section + section h5 + span{
+  float: left;
+  font-size: 10px;
+  color: silver;
+  margin-top: -30px;
+  margin-left: 10px;
+}
+header + section + main section + section section + section + section h5 + span p{
+  color: red;
+  margin-top: -14px;
+  margin-left: 190px;
+}
+header + section + main section + section section + section + section h5 + span + p{
+  font-size: 15px;
+  margin-left: 10px;
+  margin-right: 100px;
+}
+header + section + main section + section section + section + section h5 + span + p + img{
+  height: 65px;
+  width: 70px;
+  float: right;
+  margin-top: -60px;
+}
+header + section + main section + section section + section + section h5 + span + p + img + ul li{
+  list-style: none;
+  float: left;
+  font-size: 13px;
+  font-weight: bold;
+  margin-left: -30px;
+}
+header + section + main section + section section + section + section h5 + span + p + img + ul + span{
+  float: left;
+  font-size: 13px;
+  color: red;
+  margin-left: 10px;
+}
+header + section + main section + section span{
+  font-size: 10px;
+  float: left;
+  border-bottom: white;
+}
+header + section + main section + section span + h3{
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+header + section + main section + section span + h3 + span{
+  color: silver;
+  font-size: 10px;
+  text-align: left;
+  border-bottom: white;
+}
+header + section + main section + section span + h3 + span p{
+  color: red;
+  margin-top: -13px;
+  margin-left: 125px;
+
+}
+header + section + main section + section span + h3 + span + p{
+  font-size: 15px;
+}
+header + section + main section + section + section{
+  width: 40%;
+  height: 600px;
+  float: left;
+  border: 1px solid white;
+}
+header + section + main section + section + section section{
+  height: 40px;
+  width: 100%;
+  float: left;
+  border: 1px solid white;
+}
+header + section + main section + section + section section span{
+  font-size: 15px;
+  margin-left: 185px;
+}
+header + section + main section + section + section section + section{
+  height: 330px;
+  width: 100%;
+  float: left;
+  border-bottom: 1px solid silver;
+}
+header + section + main section + section + section section + section section{
+  height: 330px;
+  width: 50%;
+  float: left;
+  border-right: 1px solid silver;
+}
+header + section + main section + section + section section + section section section{
+  height: 110px;
+  width: 100%;
+  float: left;
+  /* top left */
+}
+header + section + main section + section + section section + section section section p{
+  font-size: 10px;
+}
+header + section + main section + section + section section + section section section p + h6{
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: -5px;
+}
+header + section + main section + section + section section + section section section p + h6 + p{
+  font-size: 13px;
+  text-align: left;
+  margin-top: -30px;
+  margin-right: 120px;
+}
+header + section + main section + section + section section + section section section p + h6 + p + img{
+  height: 50px;
+  width: 70px;
+  float: right;
+  margin-top: -60px;
+}
+header + section + main section + section + section section + section section section + section{
+  height: 220px;
+  width: 100%;
+  float: left;
+  border: 1px solid white;
+  /* bottom left */
+}
+header + section + main section + section + section section + section section section + section p + h6 + p{
+  font-size: 10px;
+  color: silver;
+}
+header + section + main section + section + section section + section section section + section p + h6 + p + p{
+  font-size: 13px;
+  text-align: left;
+  margin-right: 80px;
+  margin-top: -12px;
+}
+header + section + main section + section + section section + section section section + section p + h6 + p + p + img{
+  height: 50px;
+  width: 70px;
+  float: right;
+  margin-top: -80px;
+}
+header + section + main section + section + section section + section section section + section p + h6 + p + p + img + ul li{
+  font-size: 13px;
+  font-weight: bold;
+}
+header + section + main section + section + section section + section section + section{
+  height: 330px;
+  width: 50%;
+  float: left;
+  border: 1px solid white;
+  /* right */
+}
+header + section + main section + section + section section + section section + section section{
+  height: 130px;
+  width: 100%;
+  float: left;
+  border: 1px solid white;
+  /* top right */
+}
+header + section + main section + section + section section + section section + section section h6{
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+header + section + main section + section + section section + section section + section section h6 + p{
+  font-size: 13px;
+  text-align: left;
+  margin-top: -30px;
+  margin-right: 110px;
+}
+header + section + main section + section + section section + section section + section section h6 + p + img{
+  height: 50px;
+  width: 70px;
+  float: right;
+  margin-top: -60px;
+}
+header + section + main section + section + section section + section section + section section + section{
+  height: 200px;
+  width: 100%;
+  float: left;
+  border: 1px solid white;
+  /* bottom right */
+}
+header + section + main section + section + section section + section section + section section + section p + h6{
+  margin-top: -5px;
+}
+header + section + main section + section + section section + section section + section section + section p + h6 + p{
+  font-size: 13px;
+  color: black;
+}
+header + section + main section + section + section section + section section + section section + section p + h6 + p + img + ul li{
+  font-weight:bold;
+  font-size: 13px;
+  margin-left: -10px;
+
+}
+header + section + main section + section + section section + section + section{
+  height: 230px;
+  width: 100%;
+  float: left;
+  border-top: 1px solid silver;
+  border-bottom: 1px solid silver;
+  /* bottom bottom */
+}
+header + section + main section + section + section section + section + section section{
+  height: 100px;
+  width: 100%;
+  border: 1px solid white;
+  /* top */
+}
+header + section + main section + section + section section + section + section section section{
+  width: 50%;
+  height: 100px;
+  border: 1px solid white;
+  /* left */
+}
+header + section + main section + section + section section + section + section section section p{
+  font-weight: bold;
+}
+header + section + main section + section + section section + section + section section section p + p{
+  font-weight: bold;
+}
+header + section + main section + section + section section + section + section section section + section{
+  width: 50%;
+  height: 100px;
+  border: 1px solid white;
+  /* right */
+}
+header + section + main section + section + section section + section + section section section + section p{
+  font-weight: bold;
+}
+header + section + main section + section + section section + section + section section section + section p + p{
+  font-weight: bold;
+}
+header + section + main section + section + section section + section + section section section + section p + p + img{
+  height: 40px;
+  width: 40px;
+  float: right;
+  margin-top: -40px;
+}
+header + section + main section + section + section section + section + section section + section{
+  height: 130px;
+  width: 100%;
+  border-top: 1px solid silver;
+  /* bottom */
+}
+header + section + main section + section + section section + section + section section + section p{
+  font-size: 13px;
+  margin-left: 20px;
+  margin-right: 150px;
+}
+header + section + main section + section + section section + section + section section + section p +img{
+  height: 50px;
+  width: 50px;
+  float: right;
+  margin-top: -60px;
+}
+@media (min-width:768px) and (max-width:1024px){
+  header section + section + section ul li + li + li + li + li {
+    display: none;
+  }
+  header + section nav ul li +li +li +li +li +li +li +li +li +li +li +li +li +li +li{
+    display: none;
+  }
+  header + section nav ul li +li +li +li +li +li +li +li +li +li +li +li +li +li +li +li{
+    display: none;
+  }
+  header + section nav ul li +li +li +li +li +li +li +li +li +li +li +li +li +li +li +li +li{
+    display: none;
+  }
+  header + section nav ul li +li +li +li +li +li +li +li +li +li +li +li +li +li +li +li +li +li{
+    display: none;
+  }
+  header + section + main section:first-of-type{
+    display: none;
+  }
+  header + section + main section + section section + section + section h5{
+    margin-top: 60px;
+  }
+}
+@media only screen and (max-width:768px){
+  header + section {
+    display: none;
+  }
+  header + section + main section{
+    width:100%;
+  }
+  header + section + main section + section{
+    width: 100%;
+  }
+  header + section + main section + section + section{
+    width:100%;
+  }
+  header section +section h1{
+    display: none;
+  }
+  header section + section + section ul {
+    margin-top: -100px;
+  }
+  header section + section + section ul li + li{
+    display: none;
+  }
+  header section + section + section ul li + li + li{
+    display: none;
+  }
+  header section + section + section ul li + li + li + li{
+    display: none;
+  }
+  header section + section + section ul li + li + li + li + li{
+    display: none;
+  }
+}
